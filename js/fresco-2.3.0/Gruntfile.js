@@ -11,43 +11,43 @@ module.exports = function(grunt) {
       options: { process: true },
       dist: {
         src: [
-          "src/js/umd-head.js",
-          "src/js/setup.js",
-          "src/js/skins.js",
+          "srcjs/umd-head.js",
+          "srcjs/setup.js",
+          "srcjs/skins.js",
 
           // helpers
-          "src/js/helpers/bounds.js",
-          "src/js/helpers/browser.js",
-          "src/js/helpers/helpers.js",
-          "src/js/helpers/support.js",
-          "src/js/helpers/imageready.js",
-          "src/js/helpers/timers.js",
-          "src/js/helpers/url.js",
-          "src/js/helpers/vimeothumbnail.js",
-          "src/js/helpers/vimeoready.js",
+          "srcjs/helpers/bounds.js",
+          "srcjs/helpers/browser.js",
+          "srcjs/helpers/helpers.js",
+          "srcjs/helpers/support.js",
+          "srcjs/helpers/imageready.js",
+          "srcjs/helpers/timers.js",
+          "srcjs/helpers/url.js",
+          "srcjs/helpers/vimeothumbnail.js",
+          "srcjs/helpers/vimeoready.js",
 
-          "src/js/options.js",
-          "src/js/loading.js",
-          "src/js/overlay.js",
-          "src/js/window.js",
-          "src/js/keyboard.js",
-          "src/js/page.js",
-          "src/js/pages.js",
-          "src/js/view.js",
-          "src/js/spinner.js",
+          "srcjs/options.js",
+          "srcjs/loading.js",
+          "srcjs/overlay.js",
+          "srcjs/window.js",
+          "srcjs/keyboard.js",
+          "srcjs/page.js",
+          "srcjs/pages.js",
+          "srcjs/view.js",
+          "srcjs/spinner.js",
 
-          "src/js/api.js",
+          "srcjs/api.js",
 
-          "src/js/thumbnails.js",
-          "src/js/thumbnail.js",
-          "src/js/ui.js",
-          "src/js/ui-fullclick.js",
-          "src/js/ui-inside.js",
-          "src/js/ui-outside.js",
+          "srcjs/thumbnails.js",
+          "srcjs/thumbnail.js",
+          "srcjs/ui.js",
+          "srcjs/ui-fullclick.js",
+          "srcjs/ui-inside.js",
+          "srcjs/ui-outside.js",
 
-          "src/js/umd-tail.js"
+          "srcjs/umd-tail.js"
         ],
-        dest: "<%= dirs.dest %>/js/fresco.js"
+        dest: "<%= dirs.dest %>js/fresco.js"
       }
     },
 
@@ -71,8 +71,8 @@ module.exports = function(grunt) {
             comments: "some"
           }
         },
-        src: ["<%= dirs.dest %>/js/fresco.js"],
-        dest: "<%= dirs.dest %>/js/fresco.min.js"
+        src: ["<%= dirs.dest %>js/fresco.js"],
+        dest: "<%= dirs.dest %>js/fresco.min.js"
       }
     },
 

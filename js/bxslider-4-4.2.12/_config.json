@@ -11,7 +11,7 @@
 		"dist":		"dist",
 
 		"scripts": [
-			"src/js/jquery.bxslider.js"
+			"srcjs/jquery.bxslider.js"
 		]
 	},
 

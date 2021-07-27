@@ -7,7 +7,7 @@
     "name": "Nick Stakenburg",
     "url": "http://www.nickstakenburg.com"
   },
-  "main": "dist/js/fresco.js",
+  "main": "distjs/fresco.js",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/npm/cli.git"

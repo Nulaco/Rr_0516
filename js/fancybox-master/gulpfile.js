@@ -27,14 +27,14 @@ var banner = [
 gulp.task("scripts", function() {
   return gulp
     .src([
-      "src/js/core.js",
-      "src/js/media.js",
-      "src/js/guestures.js",
-      "src/js/slideshow.js",
-      "src/js/fullscreen.js",
-      "src/js/thumbs.js",
-      "src/js/hash.js",
-      "src/js/wheel.js"
+      "srcjs/core.js",
+      "srcjs/media.js",
+      "srcjs/guestures.js",
+      "srcjs/slideshow.js",
+      "srcjs/fullscreen.js",
+      "srcjs/thumbs.js",
+      "srcjs/hash.js",
+      "srcjs/wheel.js"
     ])
     .pipe(concat("jquery.fancybox.js"))
     .pipe(replace(/({fancybox-version})/g, pkg.version))

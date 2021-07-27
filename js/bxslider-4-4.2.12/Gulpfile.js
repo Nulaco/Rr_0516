@@ -4,7 +4,7 @@ var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
 
 gulp.task('js-minify', function () {
-  gulp.src('./src/js/jquery.bxslider.js')
+  gulp.src('./srcjs/jquery.bxslider.js')
   .pipe(uglify({
     preserveComments: 'license'
   }))
@@ -13,7 +13,7 @@ gulp.task('js-minify', function () {
 });
 
 gulp.task('js-copy-src', function () {
-  gulp.src('./src/js/jquery.bxslider.js')
+  gulp.src('./srcjs/jquery.bxslider.js')
   .pipe(gulp.dest('./dist'));
 });
 
