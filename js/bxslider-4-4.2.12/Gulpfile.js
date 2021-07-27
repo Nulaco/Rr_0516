@@ -35,8 +35,8 @@ gulp.task('vendor-copy-src', function () {
 });
 
 gulp.task('images-copy-src', function () {
-  gulp.src('./src/images/*')
-  .pipe(gulp.dest('./dist/images'));
+  gulp.src('./srcimages/*')
+  .pipe(gulp.dest('./distimages'));
 });
 
 gulp.task('docs-copy-src', function () {

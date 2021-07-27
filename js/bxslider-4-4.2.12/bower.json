@@ -5,8 +5,8 @@
   "main": [
     "dist/jquery.bxslider.js",
     "dist/jquery.bxslider.css",
-    "dist/images/bx_loader.gif",
-    "dist/images/controls.png"
+    "distimages/bx_loader.gif",
+    "distimages/controls.png"
   ],
   "ignore": [
     "docs_src/*",
